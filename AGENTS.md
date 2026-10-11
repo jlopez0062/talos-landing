@@ -10,12 +10,14 @@ específico (WhatsApp, Telegram…): se habla de "escribirle" o "el chat". No ha
 dependencias instaladas: son archivos HTML que se abren directo en el navegador.
 
 `index.html` es la landing pública con waitlist. El resto de la carpeta son
-las imágenes que usa: `logo-talos.png` (nav y footer), `Logo talos icono.png`
-(avatar del chat), `Logo talos fondo blanco.png` (favicon) y las fotos de fondo
-del hero y de la waitlist.
+las imágenes que usa: `logo-talos.png` (nav y footer), `avatar-talos.png`
+(avatar del chat), `favicon.png`, `hero-vaca.webp` y `fondo-waitlist.webp`.
+Los originales en alta resolución están en `Documents/Talos-originales`.
 
-Todo lo que haya en esta carpeta se publica en el sitio. No agregues aquí
-archivos internos o de trabajo.
+Todo lo que haya en esta carpeta se publica en el sitio (Vercel, conectado a
+GitHub; cada push a `main` despliega). No agregues aquí archivos internos o de
+trabajo. Nombres de archivo en minúsculas y sin espacios: el servidor distingue
+mayúsculas.
 
 ## Idioma y tono
 
